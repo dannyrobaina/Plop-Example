@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "plop": "plop"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,6 +15,7 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "inquirer-autocomplete-prompt": "^1.0.2",
     "plop": "^2.7.1"
   }
 }
